@@ -495,7 +495,6 @@ a {
     background-color: #31D0AA;
 }
 .ftr-button-svg{
-    max-width: 24px;
     fill: #FFFFFF;
     margin-left: 16px;
 }
@@ -608,7 +607,6 @@ a {
     position: absolute;
     left: 16px;
     top: 50%;
-    max-width: 18px;
     transform: translateY(-50%);
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -675,9 +673,6 @@ a {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-check {
-    max-width: 10px;
 }
 .visually-hidden:checked + .form-checkbox > .checkbox-icon{
     background-color: #404bbf;
